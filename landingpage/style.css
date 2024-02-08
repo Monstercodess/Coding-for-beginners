@@ -1,0 +1,126 @@
+import.url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+)
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+
+section{
+    min-height: 100vh;
+    background-image: url(/IMG-20230801-WA0000.jpg);
+    background-size: cover;
+    
+
+}
+.container{
+    width:85%;
+    margin:auto;
+
+}
+
+nav{
+    height: 80px;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: green;
+
+}
+
+nav ul{
+    float: right;
+    line: height 80px; 
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 5px;
+    margin-top: 30px;
+
+}
+
+
+nav ul li a{
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase ;
+    border-radius: 5px;
+    padding: 7px 8px;
+    
+}
+
+nav ul li a:hover{
+    background-color: white;
+    transition: 0.5s ease;
+
+}
+
+.message{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+
+}
+
+.message h1{
+    font-size: 36px;
+    color: white;
+    letter-spacing: 1.5;
+    font-weight: 800;
+    margin-bottom: 25px;
+    
+
+}
+
+
+
+.message p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.message .btn{
+    color: white;
+    padding: 12px; 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration:none;
+    background-color:black;
+    border: radius 50px;
+
+}
+
+
+.message .btn:hover{
+    color:white;
+    transition: 0.5s ease;
+}
+
+
+@media screen and (max-width: 1440px) and (min-width: 375px){
+
+}
+    
+
+
+
+
+
